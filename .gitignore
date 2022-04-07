@@ -14,3 +14,4 @@ downloads/*
 .env
 .env.*
 !.env.sample
+config.json

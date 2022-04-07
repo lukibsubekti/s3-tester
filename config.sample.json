@@ -1,0 +1,64 @@
+{
+  "test" : {
+    "numberUpload": 5,
+    "numberDownload": 5,
+    "uploadResultLocation": "output/upload-{time}.json",
+    "downloadResultLocation": "output/download-{time}.json",
+    "downloadDirectory": "downloads",
+    "isUpload": true,
+    "isDownload": true
+  },
+  "downloads": [
+    {
+      "fileUrl": "https://xxx.ap-south-1.linodeobjects.com/a.jpg",
+      "isUsed": true
+    },
+    {
+      "fileUrl": "https://xxx.yyy.sg-sin1.upcloudobjects.com/testing/a.jpg",
+      "isUsed": true
+    },
+    {
+      "fileUrl": "https://xxx.sgp1.digitaloceanspaces.com/a.jpg",
+      "isUsed": true
+    },
+    {
+      "fileUrl": "https://xxx.ap-south-1.linodeobjects.com/b.pdf",
+      "isUsed": true
+    },
+    {
+      "fileUrl": "https://xxx.yyy.sg-sin1.upcloudobjects.com/testing/b.pdf",
+      "isUsed": true
+    },
+    {
+      "fileUrl": "https://xxx.sgp1.digitaloceanspaces.com/b.pdf",
+      "isUsed": true
+    }
+  ],
+  "files": [
+    {
+      "location": "files/a.jpg",
+      "isUsed": true
+    },
+    {
+      "location": "files/b.pdf",
+      "isUsed": true
+    }
+  ],
+  "storages": [
+    {
+      "name": "linode",
+      "envFile": ".env.linode",
+      "isUsed": true
+    },
+    {
+      "name": "upcloud",
+      "envFile": ".env.upcloud",
+      "isUsed": true
+    },
+    {
+      "name": "digitalocean",
+      "envFile": ".env.digitalocean",
+      "isUsed": true
+    }
+  ]
+}
