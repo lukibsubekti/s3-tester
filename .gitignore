@@ -1,0 +1,15 @@
+node_modules
+built
+
+files/*
+!files/empty
+
+output/*
+!output/empty
+
+downloads/*
+!downloads/empty
+
+.env
+.env.*
+!.env.sample

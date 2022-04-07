@@ -1,0 +1,39 @@
+{
+  "test" : {
+    "numberUpload": 5,
+    "numberDownload": 5,
+    "uploadResultLocation": "output/upload-{time}.json",
+    "downloadResultLocation": "output/download-{time}.json",
+    "downloadDirectory": "downloads",
+    "isUpload": false,
+    "isDownload": true
+  },
+  "downloads": [
+    {
+      "fileUrl": "https://pedka.ap-south-1.linodeobjects.com/tests-1-a.jpg",
+      "isUsed": true
+    },
+    {
+      "fileUrl": "https://test1.xcidicdev.sg-sin1.upcloudobjects.com/tests-15-a.jpg",
+      "isUsed": true
+    }
+  ],
+  "files": [
+    {
+      "location": "files/a.jpg",
+      "isUsed": true
+    }
+  ],
+  "storages": [
+    {
+      "name": "linode",
+      "envFile": ".env.linode",
+      "isUsed": true
+    },
+    {
+      "name": "upcloud",
+      "envFile": ".env.upcloud",
+      "isUsed": true
+    }
+  ]
+}
